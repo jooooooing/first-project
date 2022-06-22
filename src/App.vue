@@ -1,9 +1,13 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div>
+      <router-link to="/">후보등록</router-link> |
+      <router-link to="/voting">투표하기</router-link> |
+      <router-link to="/result">결과보기</router-link>
+    </div>
+
   </nav>
-  <router-view />
+  <router-view></router-view>
 </template>
 
 <style>
