@@ -63,7 +63,7 @@ export default {
 
 .firstColumn {
 	width: 75px;
-	height: 40px;
+
 	border: 1px;
 	border-color: black;
 	border-style: solid;
@@ -71,7 +71,7 @@ export default {
 
 .secondColumn {
 	width: 525px;
-	height: 40px;
+
 	border: 1px;
 	border-color: black;
 	border-style: solid;
@@ -91,11 +91,15 @@ export default {
 
 img {
 	width: 100px;
-	height: 30px;
-	display: inline-block;
-
+	height: 36px;
+	margin: 5px 0px;
+	display: inline;
+	vertical-align : middle;
 }
 #contents {
-	display: inline-block;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+
 }
 </style>
